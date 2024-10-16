@@ -36,7 +36,8 @@ public class FreelancerProfileServiceImpl implements FreelancerProfileService {
     @Override
     @Cacheable(value = "freelancerProfiles", key = "#searchFreelancerProfileDto")
     public PageDto<FreelancerProfileDto> searchFreelancerProfilesBySortingType(SearchFreelancerProfileDto searchFreelancerProfileDto) {
-        return freelancerProfileRepository.searchFreelancerProfilesBySortingType(searchFreelancerProfileDto);
+        PageDto<FreelancerProfileDto> aa = freelancerProfileRepository.searchFreelancerProfilesBySortingType(searchFreelancerProfileDto);
+        return aa;
     }
 
     @Override

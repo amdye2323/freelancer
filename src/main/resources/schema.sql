@@ -1,7 +1,7 @@
-CREATE TABLE freelancer (
+CREATE TABLE freelancer_profile (
    id BIGINT AUTO_INCREMENT PRIMARY KEY,
    name VARCHAR(15) NOT NULL COMMENT '카테고리 타입 코드',
-   viewCount BIGINT NOT NULL DEFAULT 0 COMMENT '조회수',
+   view_count BIGINT NOT NULL DEFAULT 0 COMMENT '조회수',
    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
    PRIMARY KEY (`id`)
 );

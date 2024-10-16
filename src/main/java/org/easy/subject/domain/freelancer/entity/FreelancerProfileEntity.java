@@ -21,7 +21,7 @@ public class FreelancerProfileEntity {
     @Column(name = "name", length = 16)
     private String name;
 
-    @Column(name = "viewCount", length = 11)
+    @Column(name = "view_count", length = 11)
     private Long viewCount;
 
     @Builder.Default

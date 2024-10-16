@@ -11,5 +11,5 @@ public class FreelancerProfileDto {
     private Long id;
     private String name;
     private Long viewCount;
-    private LocalDateTime createdAt;
+    private String createdAt;
 }

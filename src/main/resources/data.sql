@@ -1,4 +1,4 @@
-INSERT INTO freelancer (name, viewCount, created_at) VALUES
+INSERT INTO freelancer_profile (name, view_count, created_at) VALUES
          ('홍길동1', 15, '2024-10-01 10:00:00'),
          ('김영희2', 20, '2024-10-02 11:30:00'),
          ('이철수3', 5, '2024-10-03 09:45:00'),
